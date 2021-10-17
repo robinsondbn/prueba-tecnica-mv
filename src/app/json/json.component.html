@@ -1,0 +1,45 @@
+<p>json works!</p>
+
+    <table>
+        <thead>
+             <tr>
+                 <th></th>
+                 <th></th>
+                 <th></th>
+                 <th></th>
+                 <th></th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let person of persons">
+                <th>{{person.name}}</th>
+                <th>{{person.age}}</th>
+                <th>{{person.gender}}</th>
+                <th>{{person.email}}</th>
+                <th>{{person.phone}}</th>
+                <th>{{person.company}}</th>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead>
+             <tr>
+                 <th></th>
+                 <th></th>
+                 <th></th>
+                 <th></th>
+                 <th></th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let person of filter">
+                <th>{{person.name}}</th>
+                <th>{{person.age}}</th>
+                <th>{{person.gender}}</th>
+                <th>{{person.email}}</th>
+                <th>{{person.phone}}</th>
+                <th>{{person.company}}</th>
+            </tr>
+        </tbody>
+    </table>
